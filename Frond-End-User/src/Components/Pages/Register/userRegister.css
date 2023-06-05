@@ -1,0 +1,9 @@
+.user-form span{
+    display: none;
+
+}
+
+.user-form input:invalid ~ span{
+    display: block;
+    color: red;
+} 
